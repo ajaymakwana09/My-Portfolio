@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import me from '../components/public/static/images/me.png'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 // import $ from 'jquery';
@@ -109,7 +110,7 @@ function Home() {
                                     <div className="about-wrap">
                                         <img src="/public/static/images/bg1.png" alt="" className="bg-img" />
                                         <div className="img-box">
-                                            <img src="/public/static/images/me.png" alt="Black and White Image"
+                                            <img src={me} alt="Black and White Image"
                                                 className="full-width full-size bw-effect" />
                                         </div>
                                     </div>
