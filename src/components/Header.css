@@ -1,0 +1,97 @@
+/* Toggle button styles */
+.toggle-btn {
+    border: none;
+    width: 30%;
+    font-size: 30px;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+/* Sidebar styles */
+
+.sidebar {
+    width: 250px; /* Adjust the width as needed */
+    background-color: #343a40; /* Dark background color */
+    position: fixed; /* Fix the sidebar position */
+    top: 0;
+    left: 0;
+    height: 100%; /* Full height */
+    overflow: hidden; /* Hide overflow */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    transform: translateX(-100%); /* Initially hide the sidebar */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    z-index: 1000; /* Ensure it's on top */
+    color: #fff; /* Text color */
+}
+
+.sidebar.open {
+    transform: translateX(0); /* Show the sidebar when open */
+}
+
+.sidebar nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0 ;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20%;
+    
+}
+
+.sidebar nav ul li {
+    width: 100%; 
+    padding: 15px 20px; 
+    transition: background 0.3s;
+    cursor: pointer;
+    
+}
+
+.sidebar nav ul li:hover {
+    background-color: #495057; 
+}
+
+.sidebar nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Link color */
+    display: block; /* Make links block elements */
+    width: 100%; /* Full width */
+    transition: color 0.3s; /* Smooth transition for color */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sidebar nav ul li a.active {
+    color: #fff; /* Active link text color */
+}
+
+.close-btn {
+    position: absolute; /* Position it inside the sidebar */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    background: none; /* No background */
+    border: none; /* No border */
+    font-size: 2rem; /* Large font size */
+    color: #fff; /* White color */
+    cursor: pointer; /* Pointer cursor */
+    transition: color 0.3s; /* Smooth transition for color */
+}
+
+.close-btn:hover {
+    color: #dc3545; /* Red color on hover */
+}
+
+
+@media (min-width: 596px) {
+
+    /* Hide the sidebar for larger screens */
+    .sidebar {
+        display: none;
+    }
+}
