@@ -138,8 +138,7 @@
     }
 
     .about-inner img {
-        width: 80%;
-        margin-top: 0;
+        width: 78.4% !important;
     }
 
     .about .about-outer {
