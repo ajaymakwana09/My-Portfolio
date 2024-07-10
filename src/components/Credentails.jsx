@@ -1,28 +1,30 @@
+import { NavLink } from 'react-router-dom';
+import me from '../components/public/static/images/me.png'
 
 function Credentails() {
     return (
       <>
         <div className="page-transition"></div>
   
-        <section className="py-100">
+        <section className="py-100 " >
           <div className="container">
             <div className="row d-flex align-items-center justify-content-center">
               <div className="credentials  d-flex gap-5">
-                <div className="credentail-sidebar-wrap">
+                <div className="credentail-sidebar-wrap ">
                   <div className="credentail-sidebar text-center">
                     <div className="shadow-box">
                       <div className="img-box">
-                        <img src="/public/static/images/me.png" alt="My Image" className="profile-image" />
+                        <img src={me} alt="My Image" className="profile-image" />
                       </div>
                       <h3>Ajay Makavana</h3>
                       <p>@ajaymakavana</p>
                       <ul className="social-links justify-content-center d-flex">
-                        <li><a href="#"><i className="bi bi-dribbble"></i></a></li>
-                        <li><a href="#"><i className="bi bi-twitter"></i></a></li>
-                        <li><a href="#"><i className="bi bi-instagram"></i></a></li>
-                        <li><a href="#"><i className="bi bi-facebook"></i></a></li>
+                        <li><a href="https://wa.me/9427939719"><i className="bi bi-whatsapp"></i></a></li>
+                        <li><a href="https://x.com/Ajaymakvana473"><i className="bi bi-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/ajay_mk05/"><i className="bi bi-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/ajay.makavana.52643821/"><i className="bi bi-facebook"></i></a></li>
                       </ul>
-                      <a href="#" className="theme-btn text-decoration-none">Contact Me</a>
+                      <NavLink to="/contact" className="theme-btn text-decoration-none">Contact Me </NavLink>
                     </div>
                   </div>
                 </div>

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Icon2 from '../components/public/static/images/icon2.png'
+
 
 function Contact() {
   const [contact, setContact] = useState({
@@ -107,7 +109,7 @@ function Contact() {
                 <h4 data-aos="fade-up" className="aos-init aos-animate">
                   Social Info
                 </h4>
-                <ul className="social-links d-flex p-0 gap-3 align-items-center justify-content-center">
+                <ul className="social-links d-flex p-0 gap-3 align-items-center justify-content-center " data-aos="fade-up">
                   <li>
                     <a target="_blank" className="shadow-box" href="https://wa.me/9427939719">
                       <i className="bi bi-whatsapp"></i>
@@ -132,7 +134,7 @@ function Contact() {
                 data-aos-duration="1000"
               >
                 <div className="shadow-box">
-                  <img src="/public/static/images/icon2.png" alt="" />
+                  <img src={Icon2} alt="" />
                   <h2>
                     Let’s work <span>together.</span>
                   </h2>

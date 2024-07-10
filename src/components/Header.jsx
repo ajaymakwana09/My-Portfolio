@@ -4,7 +4,9 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { NavLink } from 'react-router-dom';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import logo from '../components/public/static/images/logo.svg'
 import './Header.css';
+import '../media.css'
 
 const Header = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -68,7 +70,7 @@ const Header = () => {
                             <div className="col-3">
                                 <div className="logo" data-aos="fade-down">
                                     <NavLink to="/">
-                                    <img src={"/public/static/images/logo.svg"} alt="My Logo" />
+                                    <img src={logo} alt="My Logo" />
                                     </NavLink>
                                 </div>
                             </div>

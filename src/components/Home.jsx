@@ -2,12 +2,19 @@ import { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import me from '../components/public/static/images/me.png'
+import icon from '../components/public/static/images/icon.svg';
+import bg1 from '../components/public/static/images/bg1.png'
+import sign from '../components/public/static/images/sign.png';
+import myworks from '../components/public/static/images/my-works.png';
+import gFonts from '../components/public/static/images/gfonts.png';
+import Icon2 from '../components/public/static/images/icon2.png'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-// import $ from 'jquery';
 import 'aos/dist/aos.js';
 import '../index.css'
+import  '../media.css'
 import './ErrorPage.css';
+import { NavLink } from 'react-router-dom';
 
 
 function Home() {
@@ -108,7 +115,7 @@ function Home() {
                                 <div className="d-flex about-me col-12 col-sm-6 position-rel shadow-box" data-aos="zoom-out" data-aos-delay="200"
                                     data-aos-duration="1000">
                                     <div className="about-wrap">
-                                        <img src="/public/static/images/bg1.png" alt="" className="bg-img" />
+                                        <img src={bg1} alt="" className="bg-img" />
                                         <div className="img-box">
                                             <img src={me} alt="Black and White Image"
                                                 className="full-width full-size bw-effect" />
@@ -120,7 +127,7 @@ function Home() {
                                         <h1>AJAY MAKAVANA</h1>
                                         <p>I am a Web Developer based in Pune.</p>
                                         <a href="#" className="about-btn">
-                                            <img src="/public/static/images/icon.svg" alt="" className="mt-4" />
+                                            <img src={icon} alt="" className="mt-4" />
                                         </a>
                                     </div>
                                 </div>
@@ -131,9 +138,9 @@ function Home() {
                                             <span>LATEST WORK AND FEATURED@LATEST WORK AND FEATURED-LATEST@</span>
                                         </div>
                                         <div className="about-flex col-12 col-lg-6 d-flex gap-3 mt-4">
-                                            <a href="./credentails" className="text-decoration-none">
+                                            <NavLink to="/credentails" className="text-decoration-none">
                                             <div className="info-box">
-                                                <img src="/public/static/images/sign.png" alt="" />
+                                                <img src={sign} alt="" />
                                                 <div className="inform d-flex">
                                                     <div className="infos mt-3">
                                                         <h5>MORE ABOUT ME</h5>
@@ -141,14 +148,15 @@ function Home() {
                                                     </div>
                                                     <div style={{ marginLeft: '80px', marginTop: '25px' }}>
                                                         <a href="#" className="about-btn">
-                                                            <img src="/public/static/images/icon.svg" alt="" />
+                                                            <img src={icon} alt="" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            </a>
+                                            </NavLink>
+                                            <NavLink to="/works" className="text-decoration-none">
                                             <div className="info-box">
-                                                <img src="/public/static/images/my-works.png" alt="" />
+                                                <img src={myworks} alt="" />
                                                 <div className="inform d-flex">
                                                     <div className="infos mt-3">
                                                         <h5>SHOWCASE</h5>
@@ -156,18 +164,19 @@ function Home() {
                                                     </div>
                                                     <div style={{ marginLeft: '80px', marginTop: '25px' }}>
                                                         <a href="#" className="about-btn">
-                                                            <img src="/public/static/images/icon.svg" alt="" />
+                                                            <img src={icon} alt="" />
                                                         </a>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div></NavLink>
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </section>
                             <section className="col-12 d-flex mt-4 gap-2  justify-content-center ">
                                 <div className="blog col-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">
-                                    <img src="/public/static/images/gfonts.png" alt="Work" />
+                                    <img src={gFonts} alt="Work" />
                                     <div className="inform d-flex">
                                         <div className="infos mt-5">
                                             <h5>BLOG</h5>
@@ -175,7 +184,7 @@ function Home() {
                                         </div>
                                         <div style={{ marginLeft: '100px', marginTop: '55px' }}>
                                             <a href="#" className="about-btn">
-                                                <img src="/public/static/images/icon.svg" alt="" />
+                                                <img src={icon} alt="" />
                                             </a>
                                         </div>
                                     </div>
@@ -194,7 +203,7 @@ function Home() {
                                         </div>
                                         <div style={{ marginLeft: '55%', marginTop: '55px' }}>
                                             <a href="#" className="about-btn">
-                                                <img src="/public/static/images/icon.svg" alt="" />
+                                                <img src={icon} alt="" />
                                             </a>
                                         </div>
                                     </div>
@@ -211,7 +220,7 @@ function Home() {
                                         </div>
                                         <div style={{ marginLeft: '70px', marginTop: '25px' }}>
                                             <a href="#" className="about-btn">
-                                                <img src="/public/static/images/icon.svg" alt="" />
+                                                <img src={icon} alt="" />
                                             </a>
                                         </div>
                                     </div>
@@ -233,16 +242,19 @@ function Home() {
                                         <p>TOTAL <br />PROJECTS</p>
                                     </div>
                                 </div>
-                                <div className="about-contact-box col-6 position-rel" data-aos="zoom-in" data-aos-delay="200"
+                                <NavLink to='/contact' className="about-contact-box text-decoration-none" data-aos="zoom-in" data-aos-delay="200"
                                     data-aos-duration="2000">
-                                    <img src="/public/static/images/icon2.png" alt="" />
+                                <div className="about-contact-box col-6 position-rel" >
+                                    <img src={Icon2} alt="" />
                                     <div className=" inform d-flex mt-1">
                                         <div className="" style={{ marginLeft: '40px', width: '350px' }}>
                                             <h2>Lets <br />work <span>together.</span></h2>
                                         </div>
-                                        <img src="/public/static/images/icon.svg" alt="Me" className="about-btn" />
+                                        <img src={icon} alt="Me" className="about-btn" />
                                     </div>
                                 </div>
+                                </NavLink>
+                                
                             </section>
                         </div>
                     </div>

@@ -1,3 +1,10 @@
+import me from '../components/public/static/images/me.png'
+import star2 from '../components/public/static/images/star-2.png'
+import Icon2 from '../components/public/static/images/icon2.png'
+import icon from '../components/public/static/images/icon.svg';
+import sign from '../components/public/static/images/sign.png';
+import { NavLink } from 'react-router-dom';
+
 
 function About() {
     return (
@@ -9,20 +16,20 @@ function About() {
                             <div className="about-in" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
                                 <div className="about-img">
                                     <div className="about-inner">
-                                        <img src="/public/static/images/me.png" alt="Me" />
+                                        <img src={me} alt="Me" />
                                     </div>
                                 </div>
                             </div>
                             <div className="justify-content-center align-items-center" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
                                 <div className="about-content">
                                     <h1 className="section-heading">
-                                        <img src="/public/static/images/star-2.png" alt="" />
+                                        <img src={star2} alt="" />
                                         Self-summary
-                                        <img src="/public/static/images/star-2.png" alt="" />
+                                        <img src={star2} alt="" />
                                     </h1>
                                 </div>
                                 <div className="about-contents-box">
-                                    <img src="/public/static/images/icon2.png" alt="" />
+                                    <img src={Icon2} alt="" />
                                     <div className="about-more mt-4">
                                         <h2>Ajay Makavana</h2>
                                         <p>
@@ -71,24 +78,24 @@ function About() {
                                     </div>
                                     <div style={{ marginLeft: '70px', marginTop: '25px' }}>
                                         <a href="#" className="about-btn">
-                                            <img src="/public/static/images/icon.svg" alt="" />
+                                            <img src={icon} alt="Icon" />
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="about-contact-box col-6 position-rel" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
-                                <img src="/public/static/images/icon2.png" alt="" />
+                                <img src={Icon2} alt="" />
                                 <div className="d-flex mt-5">
                                     <div style={{ marginLeft: '40px', width: '350px' }}>
                                         <h2>Let <br />work <span>together.</span></h2>
                                     </div>
-                                    <img src="/public/static/images/icon.svg" alt="Me" className="about-btn" />
+                                    <img src={icon} alt="Me" className="about-btn" />
                                 </div>
                             </div>
-                            {/* <a href="credential.html" className="text-decoration-none"> */}
+                            <NavLink to="/Credentails" className="text-decoration-none">
                                 <div className="infos-box">
                                     <div className="info-box" data-aos="fade-left">
-                                        <img src="/public/static/images/sign.png" alt="" />
+                                        <img src={sign} alt="" />
                                         <div className="pro d-flex">
                                             <div className="infos mt-3">
                                                 <h5>MORE ABOUT ME</h5>
@@ -96,14 +103,14 @@ function About() {
                                             </div>
                                             <div style={{ marginLeft: '80px', marginTop: '25px' }}>
                                                 <a href="#" className="about-btn">
-                                                    <img src="/public/static/images/icon.svg" alt="" />
+                                                    <img src={icon} alt="" />
                                                 </a>
                                             </div>
                                         </div>
-                                        <a href="/public/static/images/icon.svg"></a>
+                                        {/* <a href="/public/static/images/icon.svg"></a> */}
                                     </div>
                                 </div>
-                            {/* </a> */}
+                            </NavLink>
                         </section>
                     </div>
                 </div>

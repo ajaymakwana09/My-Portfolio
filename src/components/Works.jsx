@@ -1,4 +1,13 @@
 
+import project1 from '../components/public/static/images/project1.jpeg';
+import project2 from '../components/public/static/images/project2.jpeg';
+import project3 from '../components/public/static/images/project3.jpeg';
+import project4 from '../components/public/static/images/project4.jpeg';
+import project5 from '../components/public/static/images/project5.jpeg';
+import project6 from '../components/public/static/images/project6.jpeg';
+import icon from '../components/public/static/images/icon.svg';
+import star2 from '../components/public/static/images/star-2.png';
+
 function Works() {
     return (
         <section className="project py-100">
@@ -7,7 +16,7 @@ function Works() {
                     <div className=" project-items">
                         <div className="project-item" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
                             <div className="project-img">
-                                <img src="/public/static/images/project1.jpeg" alt="" />
+                                <img src={project1} alt="" />
                             </div>
                             <div className="d-flex justify-content-between mt-3">
                                 <div>
@@ -15,13 +24,13 @@ function Works() {
                                     <h2>Dynamic</h2>
                                 </div>
                                 <a href="#" className="project-btn">
-                                    <img src="/public/static/images/icon.svg" alt="" />
+                                    <img src={icon} alt="" />
                                 </a>
                             </div>
                         </div>
                         <div className="project-item" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
                             <div className="project-img">
-                                <img src="/public/static/images/project2.jpeg" alt="" />
+                                <img src={project2} alt="" />
                             </div>
                             <div className="d-flex justify-content-between mt-3">
                                 <div>
@@ -29,21 +38,21 @@ function Works() {
                                     <h2>Disel 1</h2>
                                 </div>
                                 <a href="#" className="project-btn">
-                                    <img src="/public/static/images/icon.svg" alt="" />
+                                    <img src={icon} alt="" />
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div className="project-items1 col-8">
                         <h1 className="section-heading" data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="1000">
-                            <img src="/public/static/images/star-2.png" alt=""/>
+                            <img src={star2} alt=""/>
                             ALL PROJECTS
-                            <img src="/public/static/images/star-2.png" alt=""/>
+                            <img src={star2} alt=""/>
                         </h1>
                         <div className="project1 d-flex gap-3 mt-4 justify-content-center" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
                             <div className="project-item mb-0">
                                 <div className="project-img">
-                                    <img src="/public/static/images/project3.jpeg" alt="" style={{ width: '100%' }} />
+                                    <img src={project3} alt="" style={{ width: '100%' }} />
                                 </div>
                                 <div className="d-flex justify-content-between mt-3">
                                     <div>
@@ -51,13 +60,13 @@ function Works() {
                                         <h2>Dynamic</h2>
                                     </div>
                                     <a href="#" className="project-btn">
-                                        <img src="/public/static/images/icon.svg" alt=""/>
+                                        <img src={icon} alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div className="project-item mb-0">
                                 <div className="project-img">
-                                    <img src="/public/static/images/project4.jpeg" alt="" style={{ width: '100%' }} />
+                                    <img src={project4} alt="" style={{ width: '100%' }} />
                                 </div>
                                 <div className="d-flex justify-content-between mt-3">
                                     <div>
@@ -65,7 +74,7 @@ function Works() {
                                         <h2>Dynamic</h2>
                                     </div>
                                     <a href="#" className="project-btn">
-                                        <img src="/public/static/images/icon.svg" alt="" />
+                                        <img src={icon} alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -73,7 +82,7 @@ function Works() {
                         <div className="project2 d-flex gap-3 mt-4 justify-content-center" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
                             <div className="project-item">
                                 <div className="project-img">
-                                    <img src="/public/static/images/project5.jpeg" alt="" style={{ width: '100%' }} />
+                                    <img src={project5} alt="" style={{ width: '100%' }} />
                                 </div>
                                 <div className="d-flex justify-content-between mt-3">
                                     <div>
@@ -81,13 +90,13 @@ function Works() {
                                         <h2>Submarine</h2>
                                     </div>
                                     <a href="#" className="project-btn">
-                                        <img src="/public/static/images/icon.svg" alt="" />
+                                        <img src={icon} alt="" />
                                     </a>
                                 </div>
                             </div>
                             <div className="project-item">
                                 <div className="project-img">
-                                    <img src="/public/static/images/project6.jpeg" alt="" style={{ width: '100%' }} />
+                                    <img src={project6} alt="" style={{ width: '100%' }} />
                                 </div>
                                 <div className="d-flex justify-content-between mt-3">
                                     <div>
@@ -95,7 +104,7 @@ function Works() {
                                         <h2>Hydra Merc</h2>
                                     </div>
                                     <a href="#" className="project-btn">
-                                        <img src="/public/static/images/icon.svg" alt="" />
+                                        <img src={icon} alt="" />
                                     </a>
                                 </div>
                             </div>

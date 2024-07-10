@@ -405,7 +405,8 @@ header nav i {
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
     border-radius: 30px;
     background: linear-gradient(to right top, grey, black);
-
+    width: 100%;
+    /* height: 100%; */
 }
 
 .about-area .about-contact-box img {
@@ -511,14 +512,17 @@ header nav i {
     border-radius: 30px;
     background: linear-gradient(to bottom, #1a1a1a, #333333);
     height: 263px;
+    width: 100%;
 }
 
 .about-contents-box img {
     margin-left: 35px;
+    
 }
 
 .about-contents-box .about-more {
     margin-left: 35px;
+    width: 100%;
 }
 
 .about-contents-box .about-more h2 {
@@ -781,12 +785,12 @@ header nav i {
     letter-spacing: -01px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    /* gap: 5px; */
     margin-top: 2px;
     justify-content: center;
 }
 
-@media (max-width:595px) {
+/* @media (max-width:595px) {
 
     body {
         overflow-x: hidden;
@@ -951,6 +955,10 @@ header nav i {
         font-size: 26px;
     }
 
+    .about-profile-box a {
+        width: 100%;
+    }
+
     .about-contents-box .about-more p {
         font-size: 12px;
     }
@@ -1054,7 +1062,7 @@ header nav i {
     .credentail-sidebar-wrap {
         margin-left: 9%;
     }
-}
+} */
 
 /* contact page */
 
@@ -1197,7 +1205,7 @@ textarea {
 }
 
 .credentail-sidebar {
-    width: 370px;
+    width: 350px;
     position: sticky;
     top: 15%;
     border-radius: 30px;

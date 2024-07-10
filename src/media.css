@@ -1,0 +1,289 @@
+@media (max-width:595px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        margin-left: 10%;
+    }
+
+    header nav i {
+        display: block;
+        font-size: 5vw;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .logo img {
+        width: 150%;
+        margin-top: 20px;
+    }
+
+    header nav ul li {
+        display: none;
+    }
+
+    .about-area section {
+        flex-wrap: wrap;
+    }
+
+    .about-area .about-me {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .about-me .about-wrap {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .about-me .infos .about-btn {
+        display: none;
+    }
+
+    .about-flex a {
+        width: 100%;
+    }
+
+    .about-area .about-credentail-wrap .banner {
+        width: 100%;
+    }
+
+    .about-area .about-credentail-wrap .info-box {
+        width: 87%;
+        margin: auto;
+    }
+
+    .about-area .about-credentail-wrap .info-box img {
+        margin-left: 8%;
+    }
+
+    .about-credentail-wrap .about-flex {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .about-area .about-credentail-wrap .info-box .inform {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-area .blog {
+        width: 100%;
+    }
+
+    .about-area .blog .inform {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-area .blog img {
+        margin-left: 9%;
+    }
+
+    .about-area .icons {
+        width: 100%;
+    }
+
+    .about-area .profile {
+        width: 100%;
+    }
+
+    .about-area .profile .inform {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-area .info-box {
+        width: 100%
+    }
+
+    .about-area .about-contact-box {
+        width: 100%;
+    }
+    .about-area a{
+        width: 100%;
+    }
+
+    .about-area .about-contact-box .inform h2 {
+        font-size: 20px;
+    }
+
+    .about-area .about-contact-box .inform {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about {
+        overflow-x: hidden;
+    }
+
+    .about .about-in {
+        width: 80%;
+    }
+
+    .about .about-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-inner img {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    .about .about-outer {
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about-outer .about-img {
+        width: 100%;
+        height: 271px;
+    }
+
+    .about .about-content {
+        width: 100%;
+    }
+
+    .about .section-heading {
+        width: 100%;
+        font-size: 30px !important;
+    }
+
+    .about .about-contents-box {
+        width: 100%;
+    }
+
+    .about-contents-box .about-more {
+        width: 100%;
+    }
+
+    .about-contents-box .about-more h2 {
+        font-size: 16px !important;
+    }
+
+    .about-profile-box a {
+        width: 100%;
+    }
+
+    .about-contents-box .about-more p {
+        font-size: 10px !important;
+        width: 90%;
+    }
+
+    .about-profile-box {
+        flex-wrap: wrap;
+    }
+
+    .about-profile-box .profile {
+        width: 100%;
+    }
+
+    .about-profile-box .pro {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-profile-box .about-contact-box {
+        width: 100%;
+    }
+
+    .about-profile-box .about-contact-box h2 {
+        font-size: 30px;
+    }
+
+    .about-profile-box .infos-box {
+        width: 100%;
+    }
+
+    .about-profile-box .infos-box img {
+        margin-left: 14%;
+    }
+
+
+    .contact-area .contacts-area {
+        flex-wrap: wrap;
+    }
+
+    .contact-area .contact-info {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .contact-area .contact-form {
+        width: 80%;
+    }
+
+    .contact-area .contact-form .shadow-box h2 {
+        font-size: 30px;
+    }
+
+    .contact-area .contact-form .shadow-box form p span input {
+        width: 75vw;
+    }
+
+    .contact-area .contact-form .shadow-box form p span textarea {
+        width: 75vw;
+    }
+
+    .contact-area .contact-form .shadow-box form p button {
+        width: 75vw;
+    }
+
+    .contact-form .forms {
+        width: 100px;
+    }
+
+    .project .project-items {
+        flex-wrap: wrap;
+    }
+
+    .project .project-item {
+        width: 100%;
+    }
+
+    .project .project-items1 {
+        flex-wrap: wrap;
+    }
+
+    .project .projectses {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .project .project1 {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .project .project2 {
+        flex-wrap: wrap;
+    }
+
+    .project .section-heading {
+        font-size: 20px !important;
+    }
+
+    .credentials {
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+
+    .credentail-sidebar {
+        width: 100%;
+    }
+
+}
