@@ -33,7 +33,11 @@ ul {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
+.about-area .icons .icon-stroke {
+    color: #fff; /* White color */
+    stroke-width: 1.5;
+    stroke: #fff; /* Same color for stroke */
+}
 /* Header */
 header {
     padding-top: 10px;
@@ -93,9 +97,8 @@ header nav i {
 }
 
 .about-area .img-box {
-    /* background: linear-gradient(90deg, #5B78F6 -15%, #C2EBFF 58%, #5B78F6 97%); */
-    background-color: #e0e0e0;
-
+    background: linear-gradient(90deg, #5B78F6 -15%, #C2EBFF 58%, #5B78F6 97%);
+    /* background-color: #ADD8E6; */
     width: 224px;
     height: 224px;
     position: relative;
@@ -666,7 +669,7 @@ header nav i {
 }
 
 .about-profile-box .about-contact-box .about-btn {
-    margin-left: 15%;
+    margin-left: 15% ;
     margin-top: 10%;
 }
 

@@ -208,9 +208,11 @@
     .about-profile-box .about-contact-box {
         width: 100%;
     }
-
+.about-profile-box .about-contact-box .about-btn {
+     margin-right: 3px;
+}
     .about-profile-box .about-contact-box h2 {
-        font-size: 30px;
+        font-size: 30px !important;
     }
 
     .about-profile-box .infos-box {

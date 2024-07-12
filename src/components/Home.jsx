@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import 'aos/dist/aos.js';
 import '../index.css'
-import  '../media.css'
+import '../media.css'
 import './ErrorPage.css';
 import { NavLink } from 'react-router-dom';
 
@@ -41,7 +41,7 @@ function Home() {
             });
 
             return () => {
-                window.removeEventListener('load', () => {});
+                window.removeEventListener('load', () => { });
             };
         }
 
@@ -89,7 +89,7 @@ function Home() {
                 </div>
             );
         }
-    
+
         return null;
     };
 
@@ -139,37 +139,37 @@ function Home() {
                                         </div>
                                         <div className="about-flex col-12 col-lg-6 d-flex gap-3 mt-4">
                                             <NavLink to="/credentails" className="text-decoration-none">
-                                            <div className="info-box">
-                                                <img src={sign} alt="" />
-                                                <div className="inform d-flex">
-                                                    <div className="infos mt-3">
-                                                        <h5>MORE ABOUT ME</h5>
-                                                        <h2>Credentials</h2>
-                                                    </div>
-                                                    <div style={{ marginLeft: '80px', marginTop: '25px' }}>
-                                                        <a href="#" className="about-btn">
-                                                            <img src={icon} alt="" />
-                                                        </a>
+                                                <div className="info-box">
+                                                    <img src={sign} alt="" />
+                                                    <div className="inform d-flex">
+                                                        <div className="infos mt-3">
+                                                            <h5>MORE ABOUT ME</h5>
+                                                            <h2>Credentials</h2>
+                                                        </div>
+                                                        <div style={{ marginLeft: '80px', marginTop: '25px' }}>
+                                                            <a href="#" className="about-btn">
+                                                                <img src={icon} alt="" />
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
                                             </NavLink>
                                             <NavLink to="/works" className="text-decoration-none">
-                                            <div className="info-box">
-                                                <img src={myworks} alt="" />
-                                                <div className="inform d-flex">
-                                                    <div className="infos mt-3">
-                                                        <h5>SHOWCASE</h5>
-                                                        <h2>Projects</h2>
+                                                <div className="info-box">
+                                                    <img src={myworks} alt="" />
+                                                    <div className="inform d-flex">
+                                                        <div className="infos mt-3">
+                                                            <h5>SHOWCASE</h5>
+                                                            <h2>Projects</h2>
+                                                        </div>
+                                                        <div style={{ marginLeft: '80px', marginTop: '25px' }}>
+                                                            <a href="#" className="about-btn">
+                                                                <img src={icon} alt="" />
+                                                            </a>
+                                                        </div>
                                                     </div>
-                                                    <div style={{ marginLeft: '80px', marginTop: '25px' }}>
-                                                        <a href="#" className="about-btn">
-                                                            <img src={icon} alt="" />
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div></NavLink>
-                                            
+                                                </div></NavLink>
+
                                         </div>
                                     </div>
                                 </div>
@@ -191,10 +191,10 @@ function Home() {
                                 </div>
                                 <div className="icons col-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2500">
                                     <div className="icon-box d-flex gap-5 mt-5 justify-content-center">
-                                        <i className="bi bi-camera"></i>
-                                        <i className="bi bi-pencil-fill"></i>
-                                        <i className="bi bi-filter-circle-fill"></i>
-                                        <i className="bi bi-phone-flip"></i>
+                                        <i className="bi bi-camera icon-stroke"></i>
+                                        <i className="bi bi-pencil-fill icon-stroke"></i>
+                                        <i className="bi bi-filter-circle-fill icon-stroke"></i>
+                                        <i className="bi bi-phone-flip icon-stroke"></i>
                                     </div>
                                     <div className="case d-flex mt-4">
                                         <div className="infos mt-5">
@@ -208,6 +208,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="profile col-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">
                                     <div className="inener-profile">
                                         <a href="https://wa.me/9427939719"><i className="bi bi-whatsapp"></i></a>
@@ -244,17 +245,17 @@ function Home() {
                                 </div>
                                 <NavLink to='/contact' className="about-contact-box text-decoration-none" data-aos="zoom-in" data-aos-delay="200"
                                     data-aos-duration="2000">
-                                <div className="about-contact-box col-6 position-rel" >
-                                    <img src={Icon2} alt="" />
-                                    <div className=" inform d-flex mt-1">
-                                        <div className="" style={{ marginLeft: '40px', width: '350px' }}>
-                                            <h2>Lets <br />work <span>together.</span></h2>
+                                    <div className="about-contact-box col-6 position-rel" >
+                                        <img src={Icon2} alt="" />
+                                        <div className=" inform d-flex mt-1">
+                                            <div className="" style={{ marginLeft: '40px', width: '350px' }}>
+                                                <h2>Lets <br />work <span>together.</span></h2>
+                                            </div>
+                                            <img src={icon} alt="Me" className="about-btn" />
                                         </div>
-                                        <img src={icon} alt="Me" className="about-btn" />
                                     </div>
-                                </div>
                                 </NavLink>
-                                
+
                             </section>
                         </div>
                     </div>
