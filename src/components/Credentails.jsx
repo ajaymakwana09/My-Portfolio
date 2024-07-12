@@ -20,7 +20,7 @@ function Credentails() {
                       <p>@ajaymakavana</p>
                       <ul className="social-links justify-content-center d-flex">
                         <li><a href="https://wa.me/9427939719"><i className="bi bi-whatsapp"></i></a></li>
-                        <li><a href="https://x.com/Ajaymakvana473"><i className="bi bi-twitter"></i></a></li>
+                        <li><a href="https://x.com/Ajaymakvana473"><i className="bi bi-twitter-x"></i></a></li>
                         <li><a href="https://www.instagram.com/ajay_mk05/"><i className="bi bi-instagram"></i></a></li>
                         <li><a href="https://www.facebook.com/ajay.makavana.52643821/"><i className="bi bi-facebook"></i></a></li>
                       </ul>

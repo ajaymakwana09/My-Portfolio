@@ -51,21 +51,22 @@
         display: none;
     }
 
-    .about-flex a {
-        width: 100%;
-    }
+    /* .about-flex a {
+        width: 120%;
+    } */
 
     .about-area .about-credentail-wrap .banner {
         width: 100%;
     }
 
     .about-area .about-credentail-wrap .info-box {
-        width: 87%;
-        margin: auto;
+        width: 100%;
+        /* margin: auto; */
     }
 
     .about-area .about-credentail-wrap .info-box img {
-        margin-left: 8%;
+        margin-left: 14%;
+
     }
 
     .about-credentail-wrap .about-flex {
@@ -88,7 +89,7 @@
     }
 
     .about-area .blog img {
-        margin-left: 9%;
+        margin-left: 14%;
     }
 
     .about-area .icons {
@@ -105,14 +106,23 @@
     }
 
     .about-area .info-box {
-        width: 100%
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about-area .info-box .client-item {
+        width: 100%;
+        /* flex-wrap: wrap; */
     }
 
     .about-area .about-contact-box {
         width: 100%;
+        /* height: 100%; */
     }
-    .about-area a{
+
+    .about-area a {
         width: 100%;
+
     }
 
     .about-area .about-contact-box .inform h2 {
@@ -284,5 +294,7 @@
     .credentail-sidebar {
         width: 100%;
     }
-
+footer nav{
+    margin-right: 31px;
+}
 }

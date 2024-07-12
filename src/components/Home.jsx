@@ -113,10 +113,10 @@ function Home() {
                         <div className="row">
                             <section className="d-flex gap-3 justify-content-center">
                                 <div className="d-flex about-me col-12 col-sm-6 position-rel shadow-box" data-aos="zoom-out" data-aos-delay="200"
-                                    data-aos-duration="1000">
+                                    data-aos-duration="1000" >
                                     <div className="about-wrap">
                                         <img src={bg1} alt="" className="bg-img" />
-                                        <div className="img-box">
+                                        <div className="img-box" >
                                             <img src={me} alt="Black and White Image"
                                                 className="full-width full-size bw-effect" />
                                         </div>

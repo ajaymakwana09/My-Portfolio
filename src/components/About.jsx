@@ -69,7 +69,7 @@ function About() {
                             <div className="profile col-3" data-aos="fade-right">
                                 <div className="inner-profile">
                                     <a href="https://wa.me/9427939719"><i className="bi bi-whatsapp"></i></a>
-                                    <a href="https://x.com/Ajaymakvana473"><i className="bi bi-twitter"></i></a>
+                                    <a href="https://x.com/Ajaymakvana473"><i className="bi bi-twitter-x"></i></a>
                                 </div>
                                 <div className="pro d-flex">
                                     <div className="infos mt-3">

@@ -117,7 +117,7 @@ function Contact() {
                   </li>
                   <li>
                     <a target="_blank" className="shadow-box" href="https://x.com/Ajaymakvana473">
-                      <i className="bi bi-twitter"></i>
+                    <i className="bi bi-twitter-x"></i>
                     </a>
                   </li>
                   <li>
