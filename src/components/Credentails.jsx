@@ -47,11 +47,10 @@ function Credentails() {
                             </div>
                           </div>
                           <div className="credentail-edu-exp-item credentail-education">
-                            <h3>Education</h3>
                             <div className="credentail-edu-exp">
-                              <h5>2022 - 2025</h5>
-                              <h4>Bachelor Degree in Computer Application</h4>
-                              <h6>University of Bhagwan Mahavir</h6>
+                              <h5>2022 - 2024</h5>
+                              <h4>Master Degree in Full Stack Development</h4>
+                              <h6>Red & White Multimedia Education</h6>
                               <p>Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor rhoncus dolor purus non enim praesent in elementum sahas facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etisam dignissim diam quis enim lobortis viverra orci sagittis eu volutpat odio facilisis mauris sit.</p>
                             </div>
                           </div>
